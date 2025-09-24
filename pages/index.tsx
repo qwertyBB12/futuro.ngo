@@ -1,3 +1,11 @@
+import * as React from "react";
+import Head from "next/head";
+import { useRouter } from "next/router";
+
+import { PlasmicHomepage } from "../plasmic/futuro_ngo/PlasmicHomepage";
+import { GlobalContextsProvider } from "../plasmic/futuro_ngo/PlasmicGlobalContexts";
+import { PageParamsProvider__ } from "../plasmic/futuro_ngo/PlasmicUtils";
+
 export default function Homepage() {
   const router = useRouter();
 
