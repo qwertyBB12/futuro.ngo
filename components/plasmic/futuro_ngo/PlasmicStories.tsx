@@ -569,7 +569,7 @@ function PlasmicStories__RenderFunc(props: {
                       sty.link__kzzcZ
                     )}
                     component={Link}
-                    href={"https://www.plasmic.app/"}
+                    href={`/stories`}
                     platform={"nextjs"}
                   >
                     {"Changemaker Stories"}
