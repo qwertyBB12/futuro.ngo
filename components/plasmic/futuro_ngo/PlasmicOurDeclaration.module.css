@@ -269,6 +269,11 @@
   width: auto;
   padding-right: 0px;
 }
+@media (min-width: 0px) and (max-width: 768px) {
+  .text___2RaTq {
+    font-size: 16px;
+  }
+}
 .svg__hcVuk {
   position: relative;
   color: #8e2b2b9e;

@@ -422,13 +422,13 @@ function PlasmicHomepage__RenderFunc(props: {
             }
           />
 
-          <div className={classNames(projectcss.all, sty.freeBox___4BXb)}>
-            <div className={classNames(projectcss.all, sty.freeBox__vMrXw)}>
+          <div className={classNames(projectcss.all, sty.freeBox__lXUwr)}>
+            <div className={classNames(projectcss.all, sty.freeBox__nczkd)}>
               <div
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.text__zbC3
+                  sty.text__nUn8U
                 )}
               >
                 {
@@ -439,7 +439,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.text__yRmeB
+                  sty.text__stcJj
                 )}
               >
                 {
@@ -447,11 +447,11 @@ function PlasmicHomepage__RenderFunc(props: {
                 }
               </div>
               <Button
-                className={classNames("__wab_instance", sty.button__z3X3B)}
+                className={classNames("__wab_instance", sty.button__ikxy)}
                 color={"slateD0"}
                 end={
                   <Icon4Icon
-                    className={classNames(projectcss.all, sty.svg__utEo)}
+                    className={classNames(projectcss.all, sty.svg___92MBv)}
                     role={"img"}
                   />
                 }
@@ -461,12 +461,13 @@ function PlasmicHomepage__RenderFunc(props: {
                     className={classNames(
                       projectcss.all,
                       projectcss.__wab_text,
-                      sty.text__kcQNb
+                      sty.text__jbmjv
                     )}
                   >
                     {"Become a Partner"}
                   </div>
                 }
+                linkTo={`/partners`}
                 size={"large"}
                 start={null}
               />
