@@ -93,7 +93,7 @@ export type PlasmicStories__OverridesType = {
   stories?: Flex__<"div">;
   navigationBar?: Flex__<typeof NavigationBar>;
   slateArro?: Flex__<typeof PlasmicImg__>;
-  ecosystemFooter2?: Flex__<"div">;
+  ecosystemFooter3?: Flex__<"div">;
   columns?: Flex__<"div">;
 };
 
@@ -474,249 +474,322 @@ function PlasmicStories__RenderFunc(props: {
               start={null}
             />
           </div>
-          <div
-            data-plasmic-name={"ecosystemFooter2"}
-            data-plasmic-override={overrides.ecosystemFooter2}
-            className={classNames(projectcss.all, sty.ecosystemFooter2)}
-          >
+          {(
+            hasVariant(globalVariants, "screen", "mobileOnly") ? true : false
+          ) ? (
             <div
-              data-plasmic-name={"columns"}
-              data-plasmic-override={overrides.columns}
-              className={classNames(projectcss.all, sty.columns)}
+              data-plasmic-name={"ecosystemFooter3"}
+              data-plasmic-override={overrides.ecosystemFooter3}
+              className={classNames(projectcss.all, sty.ecosystemFooter3)}
             >
-              <div className={classNames(projectcss.all, sty.column___8C6K)}>
-                <div className={classNames(projectcss.all, sty.freeBox__kCxNj)}>
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__hhrvS)}
-                    displayHeight={"90px"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"none"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"90px"}
-                    src={{
-                      src: "/plasmic/futuro_ngo/images/slateprofileArro2Png.png",
-                      fullWidth: 750,
-                      fullHeight: 750,
-                      aspectRatio: undefined
-                    }}
-                  />
-
+              <div
+                data-plasmic-name={"columns"}
+                data-plasmic-override={overrides.columns}
+                className={classNames(projectcss.all, sty.columns)}
+              >
+                <div className={classNames(projectcss.all, sty.column__w4Uh7)}>
                   <div
-                    className={classNames(projectcss.all, sty.freeBox__vYi8Y)}
+                    className={classNames(projectcss.all, sty.freeBox__qIipC)}
+                  >
+                    <PlasmicImg__
+                      alt={""}
+                      className={classNames(sty.img__kE66H)}
+                      displayHeight={"90px"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"none"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"90px"}
+                      src={{
+                        src: "/plasmic/futuro_ngo/images/slateprofileArro2Png.png",
+                        fullWidth: 750,
+                        fullHeight: 750,
+                        aspectRatio: undefined
+                      }}
+                    />
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox___71XwL
+                      )}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__sSnyf
+                        )}
+                      >
+                        {"Connect with us"}
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox___9SZb
+                        )}
+                      >
+                        <Icon3Icon
+                          className={classNames(projectcss.all, sty.svg__tIfNb)}
+                          role={"img"}
+                        />
+
+                        <FacebookSvgrepoComSvgIcon
+                          className={classNames(
+                            projectcss.all,
+                            sty.svg___8NedS
+                          )}
+                          role={"img"}
+                        />
+
+                        <Icon28Icon
+                          className={classNames(projectcss.all, sty.svg__u0Qiy)}
+                          role={"img"}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className={classNames(projectcss.all, sty.column___6Yjlg)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__bgvFt)}
                   >
                     <div
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text___8UH2P
+                        sty.text__b7K34
                       )}
                     >
-                      {"Connect with us"}
+                      {"PROJECTS & IMPACT"}
                     </div>
+                    <PlasmicLink__
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        projectcss.__wab_text,
+                        sty.link__wnZmw
+                      )}
+                      component={Link}
+                      href={`/projects`}
+                      platform={"nextjs"}
+                    >
+                      {"Submit Your Project"}
+                    </PlasmicLink__>
+                    <PlasmicLink__
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        projectcss.__wab_text,
+                        sty.link__kzzcZ
+                      )}
+                      component={Link}
+                      href={"https://www.plasmic.app/"}
+                      platform={"nextjs"}
+                    >
+                      {"Changemaker Stories"}
+                    </PlasmicLink__>
+                    <PlasmicLink__
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        projectcss.__wab_text,
+                        sty.link__ys6E
+                      )}
+                      component={Link}
+                      href={`/partners`}
+                      platform={"nextjs"}
+                    >
+                      {"Global Collaborations"}
+                    </PlasmicLink__>
+                  </div>
+                </div>
+                <div className={classNames(projectcss.all, sty.column__l5DKj)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__rbbhZ)}
+                  >
                     <div
-                      className={classNames(projectcss.all, sty.freeBox__hcqWz)}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__bMrd
+                      )}
                     >
-                      <Icon3Icon
-                        className={classNames(projectcss.all, sty.svg___19IOj)}
-                        role={"img"}
-                      />
-
-                      <FacebookSvgrepoComSvgIcon
-                        className={classNames(projectcss.all, sty.svg__hZgh)}
-                        role={"img"}
-                      />
-
-                      <Icon28Icon
-                        className={classNames(projectcss.all, sty.svg__o8XGy)}
-                        role={"img"}
-                      />
+                      {"LEARN & ENGAGE"}
                     </div>
+                    <PlasmicLink__
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        projectcss.__wab_text,
+                        sty.link__c6ZhE
+                      )}
+                      component={Link}
+                      href={`/our-declaration`}
+                      platform={"nextjs"}
+                    >
+                      {"About"}
+                    </PlasmicLink__>
+                    <PlasmicLink__
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        projectcss.__wab_text,
+                        sty.link__q7Vqa
+                      )}
+                      component={Link}
+                      href={`/partners`}
+                      platform={"nextjs"}
+                    >
+                      {"Join the Movement"}
+                    </PlasmicLink__>
+                    <PlasmicLink__
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        projectcss.__wab_text,
+                        sty.link__mjpNd
+                      )}
+                      component={Link}
+                      href={""}
+                      platform={"nextjs"}
+                    >
+                      {"Become a Partner"}
+                    </PlasmicLink__>
+                    <PlasmicLink__
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        projectcss.__wab_text,
+                        sty.link__yr9Vy
+                      )}
+                      component={Link}
+                      href={`/our-declaration`}
+                      platform={"nextjs"}
+                    >
+                      {"Careers"}
+                    </PlasmicLink__>
+                    <PlasmicLink__
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        projectcss.__wab_text,
+                        sty.link__b2GgJ
+                      )}
+                      component={Link}
+                      href={`/projects`}
+                      platform={"nextjs"}
+                    >
+                      {"Contact Us"}
+                    </PlasmicLink__>
                   </div>
                 </div>
-              </div>
-              <div className={classNames(projectcss.all, sty.column__sgHzg)}>
-                <div className={classNames(projectcss.all, sty.freeBox__tct2Y)}>
+                <div className={classNames(projectcss.all, sty.column__k7TYt)}>
                   <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__ciTrO
-                    )}
+                    className={classNames(projectcss.all, sty.freeBox__t0Eoo)}
                   >
-                    {"PROJECTS & IMPACT"}
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__tjq2U
+                      )}
+                    >
+                      {"THE ECOSYSTEM"}
+                    </div>
+                    <PlasmicLink__
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        projectcss.__wab_text,
+                        sty.link__cYZtY
+                      )}
+                      component={Link}
+                      href={`/`}
+                      platform={"nextjs"}
+                    >
+                      <React.Fragment>
+                        <React.Fragment>{"Futuro\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontStyle: "italic" }}
+                        >
+                          {"    Global Impact HQ"}
+                        </span>
+                      </React.Fragment>
+                    </PlasmicLink__>
+                    <PlasmicLink__
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        projectcss.__wab_text,
+                        sty.link__wWjjD
+                      )}
+                      component={Link}
+                      href={"https://www.benextglobal.com"}
+                      platform={"nextjs"}
+                      target={"_blank"}
+                    >
+                      <React.Fragment>
+                        <React.Fragment>{"BeNeXT\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontStyle: "italic" }}
+                        >
+                          {"    The Model Rewritting Education"}
+                        </span>
+                      </React.Fragment>
+                    </PlasmicLink__>
+                    <PlasmicLink__
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        projectcss.__wab_text,
+                        sty.link__nH3Lr
+                      )}
+                      component={Link}
+                      href={"https://www.next.ngo"}
+                      platform={"nextjs"}
+                      target={"_blank"}
+                    >
+                      <React.Fragment>
+                        <React.Fragment>{"NeXT\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontStyle: "italic" }}
+                        >
+                          {"    The New Standard of Credentialing"}
+                        </span>
+                      </React.Fragment>
+                    </PlasmicLink__>
                   </div>
-                  <PlasmicLink__
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      projectcss.__wab_text,
-                      sty.link__nJkce
-                    )}
-                    component={Link}
-                    href={`/projects`}
-                    platform={"nextjs"}
-                  >
-                    {"Submit Your Project"}
-                  </PlasmicLink__>
-                  <PlasmicLink__
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      projectcss.__wab_text,
-                      sty.link__itUc2
-                    )}
-                    component={Link}
-                    href={"https://www.plasmic.app/"}
-                    platform={"nextjs"}
-                  >
-                    {"Changemaker Stories"}
-                  </PlasmicLink__>
-                  <PlasmicLink__
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      projectcss.__wab_text,
-                      sty.link___0RqHx
-                    )}
-                    component={Link}
-                    href={`/partners`}
-                    platform={"nextjs"}
-                  >
-                    {"Global Collaborations"}
-                  </PlasmicLink__>
                 </div>
-              </div>
-              <div className={classNames(projectcss.all, sty.column__unVpM)}>
-                <div className={classNames(projectcss.all, sty.freeBox__dlCtr)}>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__nvvm9
-                    )}
-                  >
-                    {"LEARN & ENGAGE"}
-                  </div>
+                <div className={classNames(projectcss.all, sty.column__ne4Cw)}>
                   <PlasmicLink__
                     className={classNames(
                       projectcss.all,
                       projectcss.a,
                       projectcss.__wab_text,
-                      sty.link__li958
+                      sty.link__xyXcH
                     )}
                     component={Link}
-                    href={`/our-declaration`}
-                    platform={"nextjs"}
-                  >
-                    {"About"}
-                  </PlasmicLink__>
-                  <PlasmicLink__
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      projectcss.__wab_text,
-                      sty.link__lkYCm
-                    )}
-                    component={Link}
-                    href={`/partners`}
-                    platform={"nextjs"}
-                  >
-                    {"Join the Movement"}
-                  </PlasmicLink__>
-                  <PlasmicLink__
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      projectcss.__wab_text,
-                      sty.link__jBn2O
-                    )}
-                    component={Link}
-                    href={""}
-                    platform={"nextjs"}
-                  >
-                    {"Become a Partner"}
-                  </PlasmicLink__>
-                  <PlasmicLink__
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      projectcss.__wab_text,
-                      sty.link__bz8F
-                    )}
-                    component={Link}
-                    href={`/our-declaration`}
-                    platform={"nextjs"}
-                  >
-                    {"Careers"}
-                  </PlasmicLink__>
-                  <PlasmicLink__
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      projectcss.__wab_text,
-                      sty.link__ufjon
-                    )}
-                    component={Link}
-                    href={`/projects`}
-                    platform={"nextjs"}
-                  >
-                    {"Contact Us"}
-                  </PlasmicLink__>
-                </div>
-              </div>
-              <div className={classNames(projectcss.all, sty.column__cztXq)}>
-                <div className={classNames(projectcss.all, sty.freeBox__ecyZb)}>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__l5YY5
-                    )}
-                  >
-                    {"THE ECOSYSTEM"}
-                  </div>
-                  <PlasmicLink__
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      projectcss.__wab_text,
-                      sty.link___6LK8
-                    )}
-                    component={Link}
-                    href={`/`}
-                    platform={"nextjs"}
-                  >
-                    <React.Fragment>
-                      <React.Fragment>{"Futuro\n"}</React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontStyle: "italic" }}
-                      >
-                        {"    Global Impact HQ"}
-                      </span>
-                    </React.Fragment>
-                  </PlasmicLink__>
-                  <PlasmicLink__
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      projectcss.__wab_text,
-                      sty.link__vSv1
-                    )}
-                    component={Link}
-                    href={"https://www.benextglobal.com"}
+                    href={"https://www.mitikah.co"}
                     platform={"nextjs"}
                     target={"_blank"}
                   >
                     <React.Fragment>
-                      <React.Fragment>{"BeNeXT\n"}</React.Fragment>
+                      <React.Fragment>{"M\u00edtikah\n"}</React.Fragment>
                       <span
                         className={"plasmic_default__all plasmic_default__span"}
                         style={{ fontStyle: "italic" }}
                       >
-                        {"    The Model Rewritting Education"}
+                        {"    Where Story Drives Strategy"}
                       </span>
                     </React.Fragment>
                   </PlasmicLink__>
@@ -725,95 +798,49 @@ function PlasmicStories__RenderFunc(props: {
                       projectcss.all,
                       projectcss.a,
                       projectcss.__wab_text,
-                      sty.link__gy8
+                      sty.link__oVgjy
                     )}
                     component={Link}
-                    href={"https://www.next.ngo"}
+                    href={"https://www.medikah.co"}
                     platform={"nextjs"}
                     target={"_blank"}
                   >
                     <React.Fragment>
-                      <React.Fragment>{"NeXT\n"}</React.Fragment>
+                      <React.Fragment>{"Medikah\n"}</React.Fragment>
                       <span
                         className={"plasmic_default__all plasmic_default__span"}
                         style={{ fontStyle: "italic" }}
                       >
-                        {"    The New Standard of Credentialing"}
+                        {"    Our definitive Project in Human Wellbeing"}
+                      </span>
+                    </React.Fragment>
+                  </PlasmicLink__>
+                  <PlasmicLink__
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      projectcss.__wab_text,
+                      sty.link__mvOU
+                    )}
+                    component={Link}
+                    href={"https://www.benextglobal.com/blog"}
+                    platform={"nextjs"}
+                    target={"_blank"}
+                  >
+                    <React.Fragment>
+                      <React.Fragment>{"Futuro Signal\n"}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontStyle: "italic" }}
+                      >
+                        {"    The Pulse of Global Change\u2013Decoded"}
                       </span>
                     </React.Fragment>
                   </PlasmicLink__>
                 </div>
-              </div>
-              <div className={classNames(projectcss.all, sty.column__peOZm)}>
-                <PlasmicLink__
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.a,
-                    projectcss.__wab_text,
-                    sty.link__t5GZ
-                  )}
-                  component={Link}
-                  href={"https://www.mitikah.co"}
-                  platform={"nextjs"}
-                  target={"_blank"}
-                >
-                  <React.Fragment>
-                    <React.Fragment>{"M\u00edtikah\n"}</React.Fragment>
-                    <span
-                      className={"plasmic_default__all plasmic_default__span"}
-                      style={{ fontStyle: "italic" }}
-                    >
-                      {"    Where Story Drives Strategy"}
-                    </span>
-                  </React.Fragment>
-                </PlasmicLink__>
-                <PlasmicLink__
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.a,
-                    projectcss.__wab_text,
-                    sty.link__fdF7I
-                  )}
-                  component={Link}
-                  href={"https://www.medikah.co"}
-                  platform={"nextjs"}
-                  target={"_blank"}
-                >
-                  <React.Fragment>
-                    <React.Fragment>{"Medikah\n"}</React.Fragment>
-                    <span
-                      className={"plasmic_default__all plasmic_default__span"}
-                      style={{ fontStyle: "italic" }}
-                    >
-                      {"    Our definitive Project in Human Wellbeing"}
-                    </span>
-                  </React.Fragment>
-                </PlasmicLink__>
-                <PlasmicLink__
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.a,
-                    projectcss.__wab_text,
-                    sty.link__kOFtT
-                  )}
-                  component={Link}
-                  href={"https://www.benextglobal.com/blog"}
-                  platform={"nextjs"}
-                  target={"_blank"}
-                >
-                  <React.Fragment>
-                    <React.Fragment>{"Futuro Signal\n"}</React.Fragment>
-                    <span
-                      className={"plasmic_default__all plasmic_default__span"}
-                      style={{ fontStyle: "italic" }}
-                    >
-                      {"    The Pulse of Global Change\u2013Decoded"}
-                    </span>
-                  </React.Fragment>
-                </PlasmicLink__>
               </div>
             </div>
-          </div>
+          ) : null}
         </div>
       </div>
     </React.Fragment>
@@ -825,12 +852,12 @@ const PlasmicDescendants = {
     "stories",
     "navigationBar",
     "slateArro",
-    "ecosystemFooter2",
+    "ecosystemFooter3",
     "columns"
   ],
   navigationBar: ["navigationBar", "slateArro"],
   slateArro: ["slateArro"],
-  ecosystemFooter2: ["ecosystemFooter2", "columns"],
+  ecosystemFooter3: ["ecosystemFooter3", "columns"],
   columns: ["columns"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -840,7 +867,7 @@ type NodeDefaultElementType = {
   stories: "div";
   navigationBar: typeof NavigationBar;
   slateArro: typeof PlasmicImg__;
-  ecosystemFooter2: "div";
+  ecosystemFooter3: "div";
   columns: "div";
 };
 
@@ -931,7 +958,7 @@ export const PlasmicStories = Object.assign(
     // Helper components rendering sub-elements
     navigationBar: makeNodeComponent("navigationBar"),
     slateArro: makeNodeComponent("slateArro"),
-    ecosystemFooter2: makeNodeComponent("ecosystemFooter2"),
+    ecosystemFooter3: makeNodeComponent("ecosystemFooter3"),
     columns: makeNodeComponent("columns"),
 
     // Metadata about props expected for PlasmicStories

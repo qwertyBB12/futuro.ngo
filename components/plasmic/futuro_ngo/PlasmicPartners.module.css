@@ -220,6 +220,11 @@
   width: 100%;
   min-width: 0;
 }
+@media (min-width: 0px) and (max-width: 768px) {
+  .text___9C4Iq {
+    font-size: 25px;
+  }
+}
 .text__rZsOg {
   position: relative;
   font-family: "Mulish", sans-serif;
@@ -238,8 +243,9 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .text__rZsOg {
-    text-align: right;
+    text-align: left;
     color: #1b2a41d9;
+    font-size: 16px;
   }
 }
 .button___8ZuvI:global(.__wab_instance):global(.__wab_instance) {
@@ -268,7 +274,7 @@
   color: #8e2b2b9e;
   height: 1em;
 }
-.ecosystemFooter2 {
+.ecosystemFooter3 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -324,7 +330,7 @@
     width: calc((100% - 0 * var(--plsmc-rc-col-gap, 0px)) * 12 / 12);
   }
 }
-.column__jwgm4 {
+.column__ns3YV {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -332,11 +338,12 @@
   padding-left: 73px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .column__jwgm4 {
+  .column__ns3YV {
     width: 100%;
+    padding-left: 0px;
   }
 }
-.freeBox__hpE7 {
+.freeBox__ffiyM {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -349,7 +356,15 @@
   max-width: 160px;
   min-width: 0;
 }
-.img__edMqC {
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__ffiyM {
+    align-self: flex-end;
+    max-width: 124px;
+    width: 100%;
+    min-width: 0;
+  }
+}
+.img__edSpK {
   object-fit: cover;
   width: 90px;
   height: 90px;
@@ -359,16 +374,21 @@
   align-self: center;
   flex-shrink: 0;
 }
-.img__edMqC > picture > img {
+.img__edSpK > picture > img {
   object-fit: cover;
 }
-.freeBox__vo7Bg {
+@media (min-width: 0px) and (max-width: 768px) {
+  .img__edSpK {
+    align-self: flex-end;
+  }
+}
+.freeBox__vww3K {
   display: flex;
   position: relative;
   flex-direction: column;
   row-gap: 16px;
 }
-.text__lo95K {
+.text__vtgB1 {
   font-family: "Mulish", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -383,7 +403,7 @@
   text-decoration-line: none;
   text-overflow: clip;
 }
-.freeBox__zIuTq {
+.freeBox__tq6Rs {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -391,28 +411,28 @@
   justify-content: center;
   column-gap: 16px;
 }
-.svg__ez38J {
+.svg__pXkhB {
   object-fit: cover;
   width: 24px;
   height: 24px;
   color: #d0d0d099;
   flex-shrink: 0;
 }
-.svg__w3UkP {
+.svg__gf3SJ {
   object-fit: cover;
   width: 24px;
   height: 24px;
   color: #d0d0d099;
   flex-shrink: 0;
 }
-.svg__q1CcO {
+.svg__ahUx {
   object-fit: cover;
   width: 24px;
   height: 24px;
   color: #d0d0d099;
   flex-shrink: 0;
 }
-.column___2XsL {
+.column__eOOqh {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -423,12 +443,12 @@
   padding-left: 60px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .column___2XsL {
+  .column__eOOqh {
     width: 100%;
     padding-left: 0px;
   }
 }
-.freeBox___6Rlry {
+.freeBox__jauGs {
   display: flex;
   position: relative;
   width: 100%;
@@ -439,7 +459,12 @@
   row-gap: 16px;
   min-width: 0;
 }
-.text__bkycx {
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__jauGs {
+    align-items: flex-end;
+  }
+}
+.text___7E2Eu {
   position: relative;
   left: auto;
   top: auto;
@@ -458,7 +483,7 @@
   text-decoration-line: none;
   text-overflow: clip;
 }
-.link__fttGu {
+.link___1Mqxz {
   color: #d0d0d0;
   font-family: "Mulish", sans-serif;
   font-size: 16px;
@@ -473,7 +498,7 @@
   text-decoration-line: none;
   text-overflow: clip;
 }
-.link___4V8F {
+.link__iXzx3 {
   color: #d0d0d0;
   font-family: "Mulish", sans-serif;
   font-size: 16px;
@@ -488,7 +513,7 @@
   text-decoration-line: none;
   text-overflow: clip;
 }
-.link__hfzHv {
+.link__xQYxK {
   color: #d0d0d0;
   font-family: "Mulish", sans-serif;
   font-size: 16px;
@@ -503,18 +528,18 @@
   text-decoration-line: none;
   text-overflow: clip;
 }
-.column__b191E {
+.column__xvepe {
   display: flex;
   position: relative;
   flex-direction: column;
   width: 25%;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .column__b191E {
+  .column__xvepe {
     width: 100%;
   }
 }
-.freeBox__t7OBt {
+.freeBox__kFipx {
   display: flex;
   position: relative;
   width: 100%;
@@ -525,7 +550,12 @@
   row-gap: 16px;
   min-width: 0;
 }
-.text__uwae {
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__kFipx {
+    align-items: flex-end;
+  }
+}
+.text__duEB {
   position: relative;
   left: auto;
   top: auto;
@@ -544,7 +574,7 @@
   text-decoration-line: none;
   text-overflow: clip;
 }
-.link__azlNi {
+.link__o9AWw {
   color: #d0d0d0;
   font-family: "Mulish", sans-serif;
   font-size: 16px;
@@ -559,7 +589,7 @@
   text-decoration-line: none;
   text-overflow: clip;
 }
-.link__l01Ly {
+.link__xa39I {
   color: #d0d0d0;
   font-family: "Mulish", sans-serif;
   font-size: 16px;
@@ -574,7 +604,7 @@
   text-decoration-line: none;
   text-overflow: clip;
 }
-.link__hX27F {
+.link__bXxq {
   color: #d0d0d0;
   font-family: "Mulish", sans-serif;
   font-size: 16px;
@@ -589,7 +619,7 @@
   text-decoration-line: none;
   text-overflow: clip;
 }
-.link__wiuw7 {
+.link__sIZn {
   color: #d0d0d0;
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -604,7 +634,7 @@
   text-decoration-line: none;
   text-overflow: clip;
 }
-.link__utgHr {
+.link___0BjVf {
   color: #d0d0d0;
   font-family: "Mulish", sans-serif;
   font-size: 16px;
@@ -619,18 +649,18 @@
   text-decoration-line: none;
   text-overflow: clip;
 }
-.column___1EKk5 {
+.column__ju4Mi {
   display: flex;
   position: relative;
   flex-direction: column;
   width: 25%;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .column___1EKk5 {
+  .column__ju4Mi {
     width: 100%;
   }
 }
-.freeBox__l1U4D {
+.freeBox__mp9Uv {
   display: flex;
   position: relative;
   width: 100%;
@@ -641,7 +671,12 @@
   row-gap: 16px;
   min-width: 0;
 }
-.text__b6B66 {
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__mp9Uv {
+    align-items: flex-end;
+  }
+}
+.text__jlmAn {
   position: relative;
   left: auto;
   top: auto;
@@ -660,7 +695,7 @@
   text-decoration-line: none;
   text-overflow: clip;
 }
-.link__ifN2O {
+.link__lq5ZE {
   color: #d0d0d0;
   font-family: "Mulish", sans-serif;
   font-size: 16px;
@@ -675,7 +710,12 @@
   text-decoration-line: none;
   text-overflow: clip;
 }
-.link__oxBIc {
+@media (min-width: 0px) and (max-width: 768px) {
+  .link__lq5ZE {
+    text-align: right;
+  }
+}
+.link__j1Ew9 {
   color: #d0d0d0;
   font-family: "Mulish", sans-serif;
   font-size: 16px;
@@ -690,7 +730,12 @@
   text-decoration-line: none;
   text-overflow: clip;
 }
-.link___8HBsa {
+@media (min-width: 0px) and (max-width: 768px) {
+  .link__j1Ew9 {
+    text-align: right;
+  }
+}
+.link__t4JQk {
   color: #d0d0d0;
   font-family: "Mulish", sans-serif;
   font-size: 16px;
@@ -705,7 +750,12 @@
   text-decoration-line: none;
   text-overflow: clip;
 }
-.column__pyRaz {
+@media (min-width: 0px) and (max-width: 768px) {
+  .link__t4JQk {
+    text-align: right;
+  }
+}
+.column__uPbOj {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -718,12 +768,12 @@
   padding: 8px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .column__pyRaz {
+  .column__uPbOj {
     padding-left: 0px;
     padding-top: 0px;
   }
 }
-.link__lavZw {
+.link__lmFpW {
   color: #d0d0d0;
   font-family: "Mulish", sans-serif;
   font-size: 16px;
@@ -741,14 +791,15 @@
   padding-bottom: 15px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .link__lavZw {
+  .link__lmFpW {
     padding-top: 0px;
     max-width: 316px;
     width: 100%;
+    text-align: right;
     min-width: 0;
   }
 }
-.link__iu4Ve {
+.link__iPbwj {
   color: #d0d0d0;
   font-family: "Mulish", sans-serif;
   font-size: 16px;
@@ -765,7 +816,12 @@
   padding-left: 0px;
   padding-bottom: 15px;
 }
-.link__n4I1S {
+@media (min-width: 0px) and (max-width: 768px) {
+  .link__iPbwj {
+    text-align: right;
+  }
+}
+.link__mvLef {
   color: #d0d0d0;
   font-family: "Mulish", sans-serif;
   font-size: 16px;
@@ -780,4 +836,9 @@
   text-decoration-line: none;
   text-overflow: clip;
   padding-left: 0px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .link__mvLef {
+    text-align: right;
+  }
 }
