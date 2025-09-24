@@ -5,6 +5,7 @@ import { PageParamsProvider as PageParamsProvider__ } from "@plasmicapp/react-we
 import GlobalContextsProvider from "../components/plasmic/futuro_ngo/PlasmicGlobalContextsProvider";
 
 import { PlasmicHomepage } from "../components/plasmic/futuro_ngo/PlasmicHomepage";
+import Head from 'next/head';
 import { useRouter } from "next/router";
 
 function Homepage() {
@@ -31,7 +32,12 @@ function Homepage() {
         route={useRouter()?.pathname}
         params={useRouter()?.query}
         query={useRouter()?.query}
-      >
+   
+              <Head>
+        <meta property="og:image" content="https://futuro.ngo/OG_Futuro.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+      </Head>>
         <PlasmicHomepage />
       </PageParamsProvider__>
     </GlobalContextsProvider>
