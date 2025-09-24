@@ -1,0 +1,199 @@
+{
+  "props": [
+    {
+      "name": "12",
+      "type": "spacing",
+      "value": "1px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "efKYYURoqLp2Ndnjoji8Cj",
+        "id": "qEFKl5RzFF6Z"
+      }
+    },
+    {
+      "name": "Basic/Ring",
+      "type": "color",
+      "value": "#9CA3AF",
+      "category": "color",
+      "meta": {
+        "projectId": "efKYYURoqLp2Ndnjoji8Cj",
+        "id": "tRJAX_cWkNhB"
+      }
+    },
+    {
+      "name": "Basic/Text-Primary",
+      "type": "color",
+      "value": "#030712",
+      "category": "color",
+      "meta": {
+        "projectId": "efKYYURoqLp2Ndnjoji8Cj",
+        "id": "tkoguxM5z1Lp"
+      }
+    },
+    {
+      "name": "Basic/Text-Secondary",
+      "type": "color",
+      "value": "#6B7280",
+      "category": "color",
+      "meta": {
+        "projectId": "efKYYURoqLp2Ndnjoji8Cj",
+        "id": "HUiucHl-Ekk9"
+      }
+    },
+    {
+      "name": "Brand/Brand",
+      "type": "color",
+      "value": "#2563EB",
+      "category": "color",
+      "meta": {
+        "projectId": "efKYYURoqLp2Ndnjoji8Cj",
+        "id": "0j73U-aQefn8"
+      }
+    },
+    {
+      "name": "Destructive/Destructive",
+      "type": "color",
+      "value": "#DC2626",
+      "category": "color",
+      "meta": {
+        "projectId": "efKYYURoqLp2Ndnjoji8Cj",
+        "id": "9mv-99iuKnR4"
+      }
+    },
+    {
+      "name": "Font-LG",
+      "type": "fontsize",
+      "value": "1.25rem",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "efKYYURoqLp2Ndnjoji8Cj",
+        "id": "8ioz59dI8g30"
+      }
+    },
+    {
+      "name": "Font-MD",
+      "type": "fontsize",
+      "value": "1rem",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "efKYYURoqLp2Ndnjoji8Cj",
+        "id": "ZqH1PT5XN1Dq"
+      }
+    },
+    {
+      "name": "Font-SM",
+      "type": "fontsize",
+      "value": "0.75rem",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "efKYYURoqLp2Ndnjoji8Cj",
+        "id": "-G0_ml63UylF"
+      }
+    },
+    {
+      "name": "Line-height-LG",
+      "type": "lineheight",
+      "value": "1.4",
+      "category": "lineheight",
+      "meta": {
+        "projectId": "efKYYURoqLp2Ndnjoji8Cj",
+        "id": "LFW2CiIwvxnd"
+      }
+    },
+    {
+      "name": "Line-height-MD",
+      "type": "lineheight",
+      "value": "1.25",
+      "category": "lineheight",
+      "meta": {
+        "projectId": "efKYYURoqLp2Ndnjoji8Cj",
+        "id": "Y6juUe718Ucx"
+      }
+    },
+    {
+      "name": "Line-height-SM",
+      "type": "lineheight",
+      "value": "1",
+      "category": "lineheight",
+      "meta": {
+        "projectId": "efKYYURoqLp2Ndnjoji8Cj",
+        "id": "oLKVyky-afPc"
+      }
+    },
+    {
+      "name": "Sans-serif",
+      "type": "fontfamily",
+      "value": "Inter",
+      "category": "fontfamily",
+      "meta": {
+        "projectId": "efKYYURoqLp2Ndnjoji8Cj",
+        "id": "Ehig9VuhWQuq"
+      }
+    },
+    {
+      "name": "Size-2",
+      "type": "spacing",
+      "value": "0.125rem",
+      "category": "spacing",
+      "meta": {
+        "projectId": "efKYYURoqLp2Ndnjoji8Cj",
+        "id": "SDxOC2kPsvxF"
+      }
+    },
+    {
+      "name": "Size-20",
+      "type": "spacing",
+      "value": "1.25rem",
+      "category": "spacing",
+      "meta": {
+        "projectId": "efKYYURoqLp2Ndnjoji8Cj",
+        "id": "UUQqXAIzTskQ"
+      }
+    },
+    {
+      "name": "Size-4",
+      "type": "spacing",
+      "value": "0.25rem",
+      "category": "spacing",
+      "meta": {
+        "projectId": "efKYYURoqLp2Ndnjoji8Cj",
+        "id": "wx0g0vEGZ7ZE"
+      }
+    },
+    {
+      "name": "Size-8",
+      "type": "spacing",
+      "value": "0.5rem",
+      "category": "spacing",
+      "meta": {
+        "projectId": "efKYYURoqLp2Ndnjoji8Cj",
+        "id": "5QBnO9gZKegI"
+      }
+    },
+    {
+      "name": "Unnamed Style Token",
+      "type": "spacing",
+      "value": "1px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "efKYYURoqLp2Ndnjoji8Cj",
+        "id": "x5d9YJGMfp08"
+      }
+    },
+    {
+      "name": "vw",
+      "type": "fontsize",
+      "value": "105vw",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "efKYYURoqLp2Ndnjoji8Cj",
+        "id": "tKSGnVXaqi0c"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}
