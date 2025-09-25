@@ -432,7 +432,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 )}
               >
                 {
-                  "Build the Blueprint for a New Era of Leadership, Innovation, and Legacy\u2014Rooted in the Americas, Designed for the World."
+                  "the Blueprint for a New Era of Leadership, Innovation, and Legacy\u2014Rooted in the Americas, Designed for the World."
                 }
               </div>
               <div
